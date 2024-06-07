@@ -4,7 +4,7 @@
  * binary_tree_leaves - Counts the number of leaves on a tree
  * @tree: The tree to check
  *
- * @Return: O on tree== Null else number
+ * Return: O on tree== Null else number
  */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
@@ -18,5 +18,5 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 	count += binary_tree_leaves(tree->left);
 	count += binary_tree_leaves(tree->right);
 
-	return (count)
+	return (count);
 }

@@ -4,7 +4,7 @@
  * binary_tree_nodes - Counts nodes with at least 1 child
  * @tree: Pointer of the tree to check
  *
- * @Return: 0 if tree is NULL
+ * Return: 0 if tree is NULL
  */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
