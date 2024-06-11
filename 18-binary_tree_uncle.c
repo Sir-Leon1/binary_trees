@@ -13,7 +13,12 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	if (node)
 	{
 		uncle = binary_tree_sibling(node->parent);
-		(uncle == NULL) ? return (NULL) : return (uncle);
+		
+		if (uncle == NULL)
+			return (NULL);
+
+		else
+			return (uncle);
 	}
 
 	return (NULL);
